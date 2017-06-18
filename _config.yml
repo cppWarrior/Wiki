@@ -1,8 +1,8 @@
-title: git-wiki
-description: git-wiki is a jekyll theme originally based on jekyll-theme-minimal
-show_downloads: true
+title: Programming: Principles and Practice Using C++
+description: 
+show_downloads: false
 git_branch: master
-logo_url:
+logo_url: https://github.com/cppWarrior/Wiki/blob/master/assets/images/ppp.jpg
 google_analytics:
 theme: 
 wiki_folder: wiki
