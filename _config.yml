@@ -2,7 +2,7 @@ title: "Programming: Principles and Practice Using C++"
 description: "test"
 show_downloads: false
 git_branch: master
-logo_url: https://github.com/cppWarrior/Wiki/blob/master/assets/images/ppp.jpg
+logo_url: ../assets/images/ppp.jpg
 google_analytics:
 theme: 
 wiki_folder: wiki
