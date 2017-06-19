@@ -1,6 +1,6 @@
 # Chapter 0: Notes to the Reader
 
-{% include_relative test.md %}
+{% include_relative wiki/ch0/test.md %}
 
 ## 0.1 The Structure of this book
 
