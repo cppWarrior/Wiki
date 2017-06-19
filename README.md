@@ -8,7 +8,7 @@
 
 2. 작업하신 파일을 [wiki](wiki/) 폴더 안에 `chXX.md` 라는 이름으로 업로드합니다.
 
-3. [index.md](index.md) 파일에 순서에 맞게 `{% include_relative wiki/chXX.md %}` 를 니다.
+3. [index.md](index.md) 파일에 순서에 맞게 `{% include_relative wiki/chXX.md %}` 를 추가합니다.
 
 마크다운의 기본적인 문법은 https://gist.github.com/ihoneymon/652be052a0727ad59601 을 참고하시면 됩니다.
 
