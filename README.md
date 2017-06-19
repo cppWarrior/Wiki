@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Wiki
 
-You can use the [editor on GitHub](https://github.com/cppWarrior/Wiki/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## 작성법
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 0. 기본사항
 
-### Markdown
+`index.md` 파일을 수정하면 됩니다.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+마크다운의 기본적인 문법은 https://gist.github.com/ihoneymon/652be052a0727ad59601 을 참고하시면 됩니다.
 
-```markdown
-Syntax highlighted code block
+커밋하기전에 꼭 preview changes를 눌러 문법이 옳았는지 확인해주세요.
 
-# Header 1
-## Header 2
-### Header 3
+### 1. 스타일 가이드
 
-- Bulleted
-- List
+- 대단원 명 앞에는 #, 중단원 명 앞에는 ##, 소단원 명 앞에는 ###을 붙여줍니다.
 
-1. Numbered
-2. List
+- 코드블럭은 \`\`\`cpp, \`\`\`로 감쌉니다. \`는 숫자 1 왼쪽에 있는 기호입니다.
 
-**Bold** and _Italic_ and `Code` text
+```cpp
+#include <iostream>
 
-[Link](url) and ![Image](src)
+using namespace std;
+
+int main()
+{
+    cout << "hello world" << "\n";
+}
 ```
+(raw를 클릭하여 원본을 봐보세요.)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- 코드에서 들여쓰기는 4개의 공백 합니다.
 
-### Jekyll Themes
+- 작업이 끝나면 중단원별로 진행상황을 기록해주세요.(표 아직 안 만들어짐)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cppWarrior/Wiki/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
