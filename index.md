@@ -1,5 +1,7 @@
 # Chapter 0: Notes to the Reader
 
+{% include_relative test.md %}
+
 ## 0.1 The Structure of this book
 
 ### 0.1.1 General approach
